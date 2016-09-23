@@ -1,0 +1,16 @@
+{
+  "name": "reusable-component",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Example reusable component for React Native and React",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./build.js"
+  },
+  "author": "Matt Styles",
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.4"
+  }
+}
