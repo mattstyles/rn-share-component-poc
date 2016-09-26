@@ -85,4 +85,10 @@ export default class FilterList extends Component {
       ? 'rgb(35,206,107)'
       : 'rgb(44,44,44)'
   }
+
+  getNativeButtonHighlight (stateOrder, name) {
+    return stateOrder === name
+      ? 'rgb(0,122,255)'
+      : 'rgb(116,116,116)'
+  }
 }

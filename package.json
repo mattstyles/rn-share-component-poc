@@ -8,6 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./build.js"
   },
+  "standard": {
+    "parser": "babel-eslint"
+  },
   "author": "Matt Styles",
   "devDependencies": {
     "babel-eslint": "^6.1.2",

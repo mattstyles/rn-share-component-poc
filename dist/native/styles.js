@@ -5,11 +5,8 @@ const styles = {
     marginBottom: 8
   },
   button: {
-    backgroundColor: 'rgb(35,206,107)',
-    paddingLeft: 16,
-    paddingRight: 16,
-    paddingTop: 8,
-    paddingBottom: 8,
+    backgroundColor: 'rgb(0,122,255)',
+    padding: 16,
     marginTop: 4,
     marginBottom: 4
   },

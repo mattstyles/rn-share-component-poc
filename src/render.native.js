@@ -15,7 +15,7 @@ export default function (props) {
       <View style={styles.container}>
         <TouchableOpacity
           style={Object.assign({}, styles.button, {
-            backgroundColor: this.getButtonHighlight(this.state.orderBy, 'firstname')
+            backgroundColor: this.getNativeButtonHighlight(this.state.orderBy, 'firstname')
           })}
           onPress={e => this.onReorder('firstname')}
         >
@@ -23,7 +23,7 @@ export default function (props) {
         </TouchableOpacity>
         <TouchableOpacity
           style={Object.assign({}, styles.button, {
-            backgroundColor: this.getButtonHighlight(this.state.orderBy, 'surname')
+            backgroundColor: this.getNativeButtonHighlight(this.state.orderBy, 'surname')
           })}
           onPress={e => this.onReorder('surname')}
         >
