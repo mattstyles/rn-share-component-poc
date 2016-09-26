@@ -8,6 +8,26 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./build.js"
   },
+  "babel": {
+    "presets": [
+      "urban"
+    ],
+    "plugins": [
+      [
+        "transform-react-require",
+        {
+          "identifier": "React",
+          "moduleName": "react"
+        }
+      ]
+    ]
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "envify"
+    ]
+  },
   "author": "Matt Styles",
   "devDependencies": {
     "babel-eslint": "^6.1.2",
