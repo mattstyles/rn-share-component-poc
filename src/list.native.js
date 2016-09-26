@@ -9,17 +9,19 @@ import styles from './styles'
 const List = ({items}) => {
   let children = items.map((item, index) => {
     let style = Object.assign({}, styles.listItem, {
-      background: index % 2
+      backgroundColor: index % 2
         ? 'rgb(64,64,64)'
         : 'rgb(44,44,44)'
     })
     return (
-      <Text
+      <View
         key={'list' + index}
         style={style}
       >
-        {item.firstname + ' ' + item.surname}
-      </Text>
+        <Text style={{color: 'white'}}>
+          {item.firstname + ' ' + item.surname}
+        </Text>
+      </View>
     )
   })
   return (
